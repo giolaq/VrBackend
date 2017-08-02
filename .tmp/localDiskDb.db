@@ -1,0 +1,41 @@
+{
+  "data": {
+    "test": [
+      {
+        "firstName": "biriba",
+        "lastName": "laquidara",
+        "createdAt": "2017-08-02T18:44:36.848Z",
+        "updatedAt": "2017-08-02T18:44:36.848Z",
+        "id": 2
+      }
+    ]
+  },
+  "schema": {
+    "test": {
+      "firstName": {
+        "type": "string",
+        "unique": true
+      },
+      "lastName": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "test": {
+      "id": 4
+    }
+  }
+}
